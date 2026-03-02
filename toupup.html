@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Top Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Top Up Game Online</h1>
+        <p>Proses cepat • Aman • Terpercaya</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Form Top Up</h2>
+
+            <label>ID User</label>
+            <input type="text" id="userId" placeholder="Masukkan ID Game">
+
+            <label>Pilih Nominal</label>
+            <select id="nominal">
+                <option value="10000">10.000</option>
+                <option value="20000">20.000</option>
+                <option value="50000">50.000</option>
+                <option value="100000">100.000</option>
+            </select>
+
+            <label>Metode Pembayaran</label>
+            <select id="payment">
+                <option value="Dana">DANA</option>
+                <option value="OVO">OVO</option>
+                <option value="GoPay">GoPay</option>
+                <option value="Transfer Bank">Transfer Bank</option>
+            </select>
+
+            <button onclick="prosesTopup()">Top Up Sekarang</button>
+
+            <div id="hasil"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Website Top Up | Dibuat oleh Kamu 🚀</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
